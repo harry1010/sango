@@ -1,0 +1,81 @@
+{
+ "name": "心願未了",
+ "value": "126383335",
+ "children": [
+  {
+   "name": "250萬以上",
+   "value": "94214410",
+     "children": [
+            {"name":"帝喵天", "value": 3280004},
+            {"name":"幻隱", "value": 3082104},
+            {"name":"shengpig", "value": 2964927},
+            {"name":"Chino", "value": 2954341},
+            {"name":"Velotic", "value": 2937859},
+            {"name":"龍門飛甲", "value": 2935213},
+            {"name":"Hoover", "value": 2925793},
+            {"name":"如入無人之境", "value": 2924026},
+            {"name":"小小亨", "value": 2862061},
+            {"name":"じòぴé", "value": 2854819},
+            {"name":"秋の天行者", "value": 2810616},
+            {"name":"KingApple", "value": 2796762},
+            {"name":"廣和", "value": 2791582},
+            {"name":"【西門吹雪】", "value": 2785774},
+            {"name":"雅慈", "value": 2767648},
+            {"name":"仁心宅厚", "value": 2752702},
+            {"name":"尹衍樑", "value": 2747662},
+            {"name":"逆連環", "value": 2741019},
+            {"name":"Cool博士", "value": 2738433},
+            {"name":"逆連發", "value": 2736284},
+            {"name":"✨非常完美✨", "value": 2732383},
+            {"name":"米克勒", "value": 2696643},
+            {"name":"Swee", "value": 2695216},
+            {"name":"殺戮藝術", "value": 2675126},
+            {"name":"狄俄倪索斯", "value": 2672900},
+            {"name":"楊光", "value": 2672151},
+            {"name":"汨毒壺潁羸", "value": 2649936},
+            {"name":"五支菸", "value": 2634517},
+            {"name":"愛夢姨", "value": 2603040},
+            {"name":"奶棟", "value": 2595649},
+            {"name":"愛夢薎", "value": 2588753},
+            {"name":"非常左邊", "value": 2551476},
+            {"name":"愛玩的人", "value": 2538112},
+            {"name":"勝部敗將", "value": 2518879}
+   ]
+  },
+  {
+   "name": "200~250萬",
+   "value": "25046116",
+   "children": [
+            {"name":"中路野獸Toyz", "value": 2453650},
+            {"name":"小謖", "value": 2452658},
+            {"name":"Dylan!", "value": 2394364},
+            {"name":"翻雲覆雨郎", "value": 2351735},
+            {"name":"愛夢寐", "value": 2348294},
+            {"name":"子秦", "value": 2346448},
+            {"name":"蒼穹武", "value": 2343126},
+            {"name":"仁哥", "value": 2211574},
+            {"name":"黃蚯蚓", "value": 2072812},
+            {"name":"愛夢嵐", "value": 2054455},
+            {"name":"Wssharris", "value": 2017000}
+    ]
+  },
+  {
+   "name": "150~200萬",
+   "value": "7122809",
+   "children": [
+            {"name":"關老二", "value": 1904481},
+            {"name":"有點無聊", "value": 1778317},
+            {"name":"彈指人間!", "value": 1767905},
+            {"name":"攔途截劫!", "value": 1672106}
+     ]
+   
+  },
+  {
+   "name": "150萬以下",
+   "children": [
+            {"name": "專職農夫", "size": 8833}
+   ]
+  }
+   
+ ]
+}
