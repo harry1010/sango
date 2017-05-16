@@ -2,13 +2,20 @@
 <html>
   <body>
     <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-    <div id="player"></div>
+    <div class="PopupWinHeader tCenter PopupMainTitle" style="font-size:2em;color:#542100;line-height: 2em;">每日任務影片</div>
+        <div class="PopupWinContent" style="width:91%;">
+        <div id="continueBtn" class="PopupWinHeader" style="font-size: 2em;"></div>
+        <div><iframe id="player" src="https://www.youtube.com/embed/' + videoUrl + '?enablejsapi=1&autohide=1&autoplay=0&controls=0&playsinline=1&rel=0" frameborder="0"></iframe>
+        </div></div>
+        </div>
+        <div style="margin:3% auto;width:100%;float:left;"><div id="skipAd" class="btnStyle action-button btnAnimate btnfont" style="width:6em;margin: 0% auto;">test</div></div>
+    </div>
 
     <script>
       // 2. This code loads the IFrame Player API code asynchronously.
       var tag = document.createElement('script');
-
-      tag.src = "https://www.youtube.com/iframe_api";
+      tag.id = 'iframe-demo';
+      tag.src = 'https://www.youtube.com/iframe_api';
       var firstScriptTag = document.getElementsByTagName('script')[0];
       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
@@ -17,20 +24,15 @@
       var player;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
-          height: '390',
-          width: '640',
-          videoId: 'M7lc1UVf-VE',
-          playerVars: { 'autohide': 1, 'controls': 0 },
           events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
+              'onReady': onPlayerReady
           }
         });
       }
 
       // 4. The API will call this function when the video player is ready.
       function onPlayerReady(event) {
-        //event.target.playVideo();
+          player.playVideo();
       }
 
       // 5. The API calls this function when the player's state changes.
