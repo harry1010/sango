@@ -38,8 +38,10 @@
                   "location": "A機房",
                   "recycle": "17:30"
                 }
-              ],
-			  "name": "感應類",
+              ]			  
+            },
+			{
+			"name": "感應類",
               "type": "function",
               "nlb": "F5",
               "children": [
@@ -80,7 +82,7 @@
                   "recycle": "17:30"
                 }
               ]
-            }
+			}
           ]
         }
       ]
