@@ -109,6 +109,98 @@
               ]
 			}
           ]
+        },
+		{
+		  "name": "When Start",
+          "name": "When Dot do Something",
+          "children": [
+            {
+              "name": "按鈕類",
+              "type": "function",
+              "nlb": "F5",
+              "children": [
+                {
+                  "name": "TOP Button",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                },
+                {
+                  "name": "Button1",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                },
+                {
+                  "name": "Button2",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                },
+                {
+                  "name": "Button3",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                }
+              ]			  
+            },
+			{
+			"name": "使用者對Dot動作",
+              "type": "function",
+              "nlb": "F5",
+              "children": [
+                {
+                  "name": "移動",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                },
+                {
+                  "name": "搖晃",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                },
+                {
+                  "name": "眼睛向上",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                },
+                {
+                  "name": "眼睛向下",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                },
+                {
+                  "name": "向左滑行",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                },
+                {
+                  "name": "向右滑行",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                },
+                {
+                  "name": "拋dot",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                },
+                {
+                  "name": "拍手",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
+                }
+              ]
+			}
+          ]
         }
       ]
     }
