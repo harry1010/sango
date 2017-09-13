@@ -5,8 +5,8 @@
       "name": "Start",
       "type": "prpject",
       "children": [
+	  "name": "When Start",
         {
-		  "name": "When Start",
           "name": "When Dash do Something",
           "children": [
             {
@@ -111,7 +111,6 @@
           ]
         },
 		{
-		  "name": "When Start",
           "name": "When Dot do Something",
           "children": [
             {
