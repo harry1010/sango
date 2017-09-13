@@ -38,164 +38,52 @@
                   "location": "A機房",
                   "recycle": "17:30"
                 }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "產品 B",
-      "type": "prpject",
-      "children": [
-        {
-          "name": "工廠3",
-          "type": "類型",
-          "children": [
-            {
-              "name": "功能2 [12.77.25.193]",
-              "type": "function",
-              "nlb": "Nginx",
-              "children": [
-                {
-                  "name": "HQ-W07 [168.37.145.27]",
-                  "type": "server",
-                  "location": "A機房",
-                  "recycle": "12:30"
-                },
-                {
-                  "name": "HQ-W08 [168.37.145.28]",
-                  "type": "server",
-                  "location": "C機房",
-                  "recycle": "12:30"
-                }
-              ]
-            },
-            {
-              "name": "功能3 [12.77.25.193]",
+              ],
+			  "name": "感應類",
               "type": "function",
               "nlb": "F5",
               "children": [
                 {
-                  "name": "HQ-W09 [168.37.145.23]",
+                  "name": "前方有物品",
                   "type": "server",
                   "location": "A機房",
-                  "recycle": "12:30"
+                  "recycle": "17:30"
                 },
                 {
-                  "name": "HQ-W10 [168.37.145.24]",
-                  "type": "server",
-                  "location": "B機房",
-                  "recycle": "12:30"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "工廠4",
-          "type": "類型",
-          "children": [
-            {
-              "name": "功能1 [12.77.25.194]",
-              "type": "function",
-              "nlb": "Nginx",
-              "children": [
-                {
-                  "name": "HQ-W11 [168.37.145.31]",
+                  "name": "後方有物品",
                   "type": "server",
                   "location": "A機房",
-                  "recycle": "12:30"
+                  "recycle": "17:30"
                 },
                 {
-                  "name": "HQ-W112 [168.37.145.32]",
-                  "type": "server",
-                  "location": "C機房",
-                  "recycle": "08:30"
-                }
-              ]
-            },
-            {
-              "name": "功能2 [12.77.25.194]",
-              "type": "function",
-              "nlb": "Nginx",
-              "children": [
-                {
-                  "name": "HQ-W13 [168.37.145.33]",
+                  "name": "右前方有物品",
                   "type": "server",
                   "location": "A機房",
-                  "recycle": "08:30"
+                  "recycle": "17:30"
                 },
                 {
-                  "name": "HQ-W14 [168.37.145.34]",
-                  "type": "server",
-                  "location": "B機房",
-                  "recycle": "08:30"
-                },
-                {
-                  "name": "HQ-W15 [168.37.145.25]",
-                  "type": "server",
-                  "location": "B機房",
-                  "recycle": "08:30"
-                },
-                {
-                  "name": "HQ-W16 [168.37.145.26]",
-                  "type": "server",
-                  "location": "B機房",
-                  "recycle": "08:30"
-                }
-              ]
-            },
-
-            {
-              "name": "功能3 [12.77.25.194]",
-              "type": "function",
-              "nlb": "Nginx",
-              "children": [
-                {
-                  "name": "HQ-W17 [168.37.145.29]",
-                  "type": "server",
-                  "location": "B機房",
-                  "recycle": "08:30"
-                },
-                {
-                  "name": "HQ-W18 [168.37.145.30]",
-                  "type": "server",
-                  "location": "B機房",
-                  "recycle": "08:30"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "工廠2",
-          "type": "類型",
-          "children": [
-            {
-              "name": "功能2 [12.77.25.192]",
-              "type": "function",
-              "nlb": "F5",
-              "children": [
-                {
-                  "name": "HQ-W19 [168.37.145.21]",
+                  "name": "左前方有物品",
                   "type": "server",
                   "location": "A機房",
-                  "recycle": "08:30"
+                  "recycle": "17:30"
                 },
                 {
-                  "name": "HQ-W20 [168.37.145.22]",
+                  "name": "撞到前方物品",
                   "type": "server",
                   "location": "A機房",
-                  "recycle": "08:30"
+                  "recycle": "17:30"
+                },
+                {
+                  "name": "感應到前方Dot",
+                  "type": "server",
+                  "location": "A機房",
+                  "recycle": "17:30"
                 }
               ]
             }
           ]
         }
-
       ]
     }
-
   ]
 }
