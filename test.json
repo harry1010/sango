@@ -1,11 +1,12 @@
 {
-  "name": "Blockly指令",
-  "children": [
-    {
+  
       "name": "Start",
       "type": "prpject",
       "children": [
 	    {"name": "When Start"},
+        {"name": "goto Start"},
+        {"name": "Function"},
+        {"name": "call Function"},
         {
           "name": "When Dash do Something",
           "children": [
@@ -142,7 +143,7 @@
                   "location": "A機房",
                   "recycle": "17:30"
                 }
-              ]			  
+              ]
             },
 			{
 			"name": "使用者對Dot動作",
@@ -202,6 +203,4 @@
           ]
         }
       ]
-    }
-  ]
 }
